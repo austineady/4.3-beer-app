@@ -1,0 +1,8 @@
+- [x] console.log the data
+- [ ] put containers in the document
+- [ ] console.log just the data I'm trying to list (title)
+- [ ] display a list of the data in the proper container
+- [ ] display the first one in the detail container
+- [ ] respond to clicking a beer by console.log 'hello'
+- [ ] respond to clicking a beer by console.log the beer I just clicked
+- [ ] respond to clicking a beer by replacing the contents of the detail container with the beer I just clicked.
