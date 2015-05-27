@@ -1,6 +1,6 @@
 - [x] console.log the data
 - [x] put containers in the document
-- [ ] console.log just the data I'm trying to list (title)
+- [ ] display static data in list
 - [ ] display a list of the data in the proper container
 - [ ] display the first one in the detail container
 - [ ] respond to clicking a beer by console.log 'hello'
