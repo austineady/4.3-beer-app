@@ -7,17 +7,19 @@
 
   function app(beers){
     logBeers(beers);
-    renderApp();
+    renderApp(beers);
   }
 
   function logBeers(beers) {
     console.log(beers);
   }
 
-  function renderApp(){
+  function renderApp(beers){
     // get the application template and put it in the body
     $('body').prepend(JST['application']());
-    $('.beers-list').append(JST['beers']());
+    $('.beers-list').append(JST['beers']({
+      list: beers
+    }));
   }
 
 })();
