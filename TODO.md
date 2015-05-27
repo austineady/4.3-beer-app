@@ -2,7 +2,7 @@
 - [x] put containers in the document
 - [x] display static data in list
 - [x] display a list of the data in the proper container
-- [ ] display the first one in the detail container
+- [x] display the first one in the detail container
 - [ ] respond to clicking a beer by console.log 'hello'
 - [ ] respond to clicking a beer by console.log the beer I just clicked
 - [ ] respond to clicking a beer by replacing the contents of the detail container with the beer I just clicked.

@@ -16,7 +16,9 @@
 
   function renderApp(beers){
     // get the application template and put it in the body
-    $('body').prepend(JST['application']());
+    $('body').prepend(JST['application']({
+      beer: _.first(beers)
+    }));
     $('.beers-list').append(JST['beers']({
       list: beers
     }));
