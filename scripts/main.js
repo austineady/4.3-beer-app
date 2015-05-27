@@ -19,9 +19,10 @@
     $('body').prepend(JST['application']({
       beer: _.first(beers)
     }));
-    $('.beers-list').append(JST['beers']({
-      list: beers
-    }));
+
+    _.each(beers, function(beer) {
+      var $beer = $('.beers-list').append(JST['beer'](beer));
+    });
   }
 
 })();
